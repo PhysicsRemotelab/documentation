@@ -29,6 +29,46 @@ Following links can be used as a guide to configure MySQL database
 
 MySQL Workbench user interface tool can be optionally downloaded for easier access and configuration for database.
 
+## Remote Lab API
+
+Remote Lab API is used to connect to database, send and receive data between database and website.
+It is necessary to configure database correctly for API to run. Database default configuration (DB_PORT, DB_USERNAME, DB_PASSWORD, DB_NAME) can be found in .env file and variable values can be changed.
+
+Clone code for API
+```
+git clone git@github.com:PhysicsRemotelab/rlab-api.git
+```
+After cloning, go to directory and install Node dependencies
+```
+npm install
+```
+After dependencies are installed, run application
+```
+npm start
+```
+Visit API locally at the address
+```
+http://localhost:4000/api/
+```
+
+## Remote Lab Proxy
+
+Remote Lab has a lot of services and to be able to serve all requests through one port, there is Remote Lab Proxy. It is also used for logging requests.
+
+Clone code for Proxy
+```
+git clone git@github.com:PhysicsRemotelab/rlab-proxy.git
+```
+After cloning, go to directory and install Node dependencies
+```
+npm install
+```
+After dependencies are installed, run application
+```
+npm start
+```
+There is no particular service to visit to test application, it just runs in background and listens for other application requests.
+
 ## Remote Lab Site
 
 Remote Lab Site contains web interface for application. It can be started independently, but it will contain no back-end services or data.
@@ -37,7 +77,7 @@ Clone code for site
 ```
 git clone git@github.com:PhysicsRemotelab/rlab-site.git
 ```
-After cloning go to directory and install Node dependencies
+After cloning, go to directory and install Node dependencies
 ```
 npm install
 ```
