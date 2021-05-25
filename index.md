@@ -1,12 +1,22 @@
-## Documentation for Remote Lab
+# Remote Control Laboratory for Measurements in Physics
 
-You can use the [editor on GitHub](https://github.com/PhysicsRemotelab/docs/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This technical documentation is meant to teach how to setup Remote Lab software locally and stat developing new features.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Software to download
 
-### Markdown
+List of necessary software to be installed locally, tutorials can be found on software homepages.
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en/)
+- [Python](https://www.python.org/)
+- [Docker](https://www.docker.com/) (optional)
+- [MySQL Workbench](https://www.mysql.com/products/workbench/) (optional)
+- [Visual Studio Code](https://code.visualstudio.com/) (optional)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+After software is installed, then can proceed to configure development environment
+
+## Git
+
+To clone code from private repository, it is necessary to setup 
 
 ```markdown
 Syntax highlighted code block
