@@ -13,7 +13,10 @@ List of necessary software to be installed locally, tutorials can be found on so
 - [MySQL Workbench](https://www.mysql.com/products/workbench/) (optional)
 - [Visual Studio Code](https://code.visualstudio.com/) (optional)
 
-After software is installed, proceed to configure development environment
+Source code for all Remote Lab projects can be found on (requires access to see private repositories):
+- [https://github.com/PhysicsRemotelab](https://github.com/PhysicsRemotelab)
+
+After software is installed, proceed to configure development environment.
 
 ## Git
 
