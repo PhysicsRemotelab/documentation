@@ -1,6 +1,6 @@
 # Remote Control Laboratory for Measurements in Physics
 
-This technical documentation is meant to teach how to setup Remote Lab software locally and stat developing new features.
+This technical documentation is meant to guide how to setup Remote Lab software locally and start developing new features.
 
 ## Software to download
 
@@ -8,40 +8,43 @@ List of necessary software to be installed locally, tutorials can be found on so
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en/)
 - [Python](https://www.python.org/)
+- [MySQL](https://dev.mysql.com/downloads/installer/)
 - [Docker](https://www.docker.com/) (optional)
 - [MySQL Workbench](https://www.mysql.com/products/workbench/) (optional)
 - [Visual Studio Code](https://code.visualstudio.com/) (optional)
 
-After software is installed, then can proceed to configure development environment
+After software is installed, proceed to configure development environment
 
 ## Git
 
-To clone code from private repository, it is necessary to setup 
+To clone code from private repositories, it is necessary to setup SSH keys. Following tutorials can be used to generate SSH keys on your computer and add them to Github account
+- [Generating a new SSH key](https://docs.github.com/en/github-ae@latest/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent])
+- [Adding a new SSH key to your GitHub account](https://docs.github.com/en/github-ae@latest/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
-```markdown
-Syntax highlighted code block
+## Remote Lab Site
 
-# Header 1
-## Header 2
-### Header 3
+Remote Lab Site contains web interface for application. It can be started independently, but it will contain no back-end services or data.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+Clone code for site
+```
+git clone git@github.com:PhysicsRemotelab/rlab-site.git
+```
+After cloning go to directory and install Node dependencies
+```
+npm install
+```
+After dependencies are installed, run application
+```
+npm start
+```
+Visit website locally at the address
+```
+http://localhost:4200/
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## MySQL database
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PhysicsRemotelab/docs/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Remote Lab holds data in MySQL database. It is necessary to configure MySQL port, username and password to connect.
+Following links can be used as a guide to configure MySQL database
+[Getting Started with MySQL](https://dev.mysql.com/doc/mysql-getting-started/en/)
+MySQL Workbench user interface tool can be optionally downloaded for easier access and configuration for database.
