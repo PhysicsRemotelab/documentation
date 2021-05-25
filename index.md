@@ -23,7 +23,7 @@ To clone code from private repositories, it is necessary to setup SSH keys. Foll
 
 ## MySQL database
 
-Remote Lab holds data in MySQL database. It is necessary to configure MySQL port, username and password to connect.
+Remote Lab holds data in MySQL database. To connect, it is necessary to configure MySQL port, username and password.
 Following links can be used as a guide to configure MySQL database
 - [Getting Started with MySQL](https://dev.mysql.com/doc/mysql-getting-started/en/)
 
@@ -32,7 +32,7 @@ MySQL Workbench user interface tool can be optionally downloaded for easier acce
 ## Remote Lab API
 
 Remote Lab API is used to connect to database, send and receive data between database and website.
-It is necessary to configure database correctly for API to run. Database default configuration (DB_PORT, DB_USERNAME, DB_PASSWORD, DB_NAME) can be found in .env file and variable values can be changed.
+It is necessary to configure database correctly for API to run successfully. Database default configuration (DB_PORT, DB_USERNAME, DB_PASSWORD, DB_NAME) can be found in .env file and variable values can be changed.
 
 Clone code for API
 ```
@@ -45,10 +45,6 @@ npm install
 After dependencies are installed, run application
 ```
 npm start
-```
-Visit API locally at the address
-```
-http://localhost:4000/api/
 ```
 
 ## Remote Lab Proxy
@@ -71,7 +67,7 @@ There is no particular service to visit to test application, it just runs in bac
 
 ## Remote Lab Site
 
-Remote Lab Site contains web interface for application. It can be started independently, but it will contain no back-end services or data.
+Remote Lab Site contains web interface for application. It can be started independently, but it will contain no back-end services or data if API is not running or database is empty.
 
 Clone code for site
 ```
