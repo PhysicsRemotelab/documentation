@@ -2,6 +2,8 @@
 
 This technical documentation is meant to guide how to setup Remote Lab software locally and start developing new features.
 
+Source code for all Remote Lab projects can be found on [https://github.com/PhysicsRemotelab](https://github.com/PhysicsRemotelab) (requires access to see private repositories).
+
 ## Software to download
 
 List of necessary software to be installed locally, tutorials can be found on software homepages.
@@ -12,9 +14,6 @@ List of necessary software to be installed locally, tutorials can be found on so
 - [Docker](https://www.docker.com/) (optional)
 - [MySQL Workbench](https://www.mysql.com/products/workbench/) (optional)
 - [Visual Studio Code](https://code.visualstudio.com/) (optional)
-
-Source code for all Remote Lab projects can be found on (requires access to see private repositories):
-- [https://github.com/PhysicsRemotelab](https://github.com/PhysicsRemotelab)
 
 After software is installed, proceed to configure development environment.
 
