@@ -21,6 +21,14 @@ To clone code from private repositories, it is necessary to setup SSH keys. Foll
 - [Generating a new SSH key](https://docs.github.com/en/github-ae@latest/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent])
 - [Adding a new SSH key to your GitHub account](https://docs.github.com/en/github-ae@latest/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
+## MySQL database
+
+Remote Lab holds data in MySQL database. It is necessary to configure MySQL port, username and password to connect.
+Following links can be used as a guide to configure MySQL database
+- [Getting Started with MySQL](https://dev.mysql.com/doc/mysql-getting-started/en/)
+
+MySQL Workbench user interface tool can be optionally downloaded for easier access and configuration for database.
+
 ## Remote Lab Site
 
 Remote Lab Site contains web interface for application. It can be started independently, but it will contain no back-end services or data.
@@ -41,10 +49,3 @@ Visit website locally at the address
 ```
 http://localhost:4200/
 ```
-
-## MySQL database
-
-Remote Lab holds data in MySQL database. It is necessary to configure MySQL port, username and password to connect.
-Following links can be used as a guide to configure MySQL database
-[Getting Started with MySQL](https://dev.mysql.com/doc/mysql-getting-started/en/)
-MySQL Workbench user interface tool can be optionally downloaded for easier access and configuration for database.
