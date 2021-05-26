@@ -25,7 +25,7 @@ To clone code from private repositories, it is necessary to setup SSH keys. Foll
 
 ## MySQL database
 
-Remote Lab holds data in MySQL database. To connect, it is necessary to configure MySQL port, username and password.
+Remote Lab holds data in MySQL database. To connect, it is necessary to install and configure MySQL port, username and password.
 Following links can be used as a guide to configure MySQL database
 - [Getting Started with MySQL](https://dev.mysql.com/doc/mysql-getting-started/en/)
 
