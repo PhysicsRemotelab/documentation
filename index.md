@@ -50,7 +50,7 @@ npm start
 ```
 When running application, database tables are created automatically.
 
-By default database will be empty. To seed database with default data run following command
+By default, database will be empty. To seed database with default data run, following command
 ```
 npm run seed
 ```
