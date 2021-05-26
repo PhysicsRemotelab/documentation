@@ -54,6 +54,10 @@ By default database will be empty. To seed database with default data run follow
 ```
 npm run seed
 ```
+If API is running correctly, then it is possible to fetch data from database from following endpoint
+```
+http://localhost:4000/labs
+```
 
 ## Remote Lab Proxy
 
