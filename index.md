@@ -48,6 +48,12 @@ After dependencies are installed, run application
 ```
 npm start
 ```
+When running application, database tables are created automatically.
+
+By default database will be empty. To seed database with default data run following command
+```
+npm run seed
+```
 
 ## Remote Lab Proxy
 
