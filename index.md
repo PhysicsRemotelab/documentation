@@ -19,7 +19,7 @@ After software is installed, proceed to configure development environment.
 
 ## Git
 
-To clone code from private repositories, it is necessary to setup SSH keys. 
+Download and install [Git](https://git-scm.com/). Git is used for source code management. To clone code from private repositories, it is necessary to setup SSH keys. 
 Verify that git is installed.
 ```
 git --version
