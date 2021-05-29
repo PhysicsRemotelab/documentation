@@ -6,6 +6,7 @@ Source code for all Remote Lab projects can be found on [https://github.com/Phys
 
 ## Menu
 - [Software to download](https://physicsremotelab.github.io/documentation/software)
+- [Git](https://physicsremotelab.github.io/documentation/git)
 - [Node](https://physicsremotelab.github.io/documentation/node)
 - [Python](https://physicsremotelab.github.io/documentation/python)
 - [Remote Lab Site](https://physicsremotelab.github.io/documentation/rlab-site)
