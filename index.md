@@ -11,7 +11,6 @@ List of necessary software to be installed locally, tutorials can be found on so
 - [Node.js v14](https://nodejs.org/en/) (v16 not supported)
 - [Python 3](https://www.python.org/)
 - [MySQL](https://dev.mysql.com/downloads/installer/)
-- [Docker](https://www.docker.com/) (optional)
 - [MySQL Workbench](https://www.mysql.com/products/workbench/) (optional)
 - [Visual Studio Code](https://code.visualstudio.com/) (optional)
 
