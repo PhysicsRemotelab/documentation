@@ -62,7 +62,7 @@ Python is used in web camera streaming service. Download and install [Python](ht
 ```
 python --version
 ```
-PIP is Package Installed for Python and it is used to install dependencies. Verify that PIP was installed with Python.
+PIP is Package Installer for Python and it is used to install dependencies. Verify that PIP was installed with Python.
 ```
 pip --version
 ```
