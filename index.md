@@ -19,12 +19,11 @@ After software is installed, proceed to configure development environment.
 
 ## Git
 
-Download and install [Git](https://git-scm.com/). Git is used for source code management. To clone code from private repositories, it is necessary to setup SSH keys. 
-Verify that git is installed.
+Git is used for source code management. Download and install [Git](https://git-scm.com/). Verify that install was successful.
 ```
 git --version
 ```
-Generate SSH key
+To clone code from Remote Lab private repositories, it is necessary to setup SSH keys. Generate SSH key
 ```
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
