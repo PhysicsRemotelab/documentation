@@ -19,7 +19,22 @@ After software is installed, proceed to configure development environment.
 
 ## Git
 
-To clone code from private repositories, it is necessary to setup SSH keys. Following tutorials can be used to generate SSH keys on your computer and add them to Github account
+To clone code from private repositories, it is necessary to setup SSH keys. Verify that git is installed.
+```
+git --version
+```
+Generate SSH key
+```
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+Copy SSH key contents
+```
+clip < ~/.ssh/id_ed25519.pub
+```
+Go to Github Account -> Settings -> SSH and GPG keys -> New SSH key.
+Copy key there and save. Now you should be able to clone from Remote Lab private repositories.
+
+Additional tutorials
 - [Generating a new SSH key](https://docs.github.com/en/github-ae@latest/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 - [Adding a new SSH key to your GitHub account](https://docs.github.com/en/github-ae@latest/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
