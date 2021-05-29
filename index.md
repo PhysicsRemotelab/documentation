@@ -46,6 +46,17 @@ Additional tutorials
 - [Generating a new SSH key](https://docs.github.com/en/github-ae@latest/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 - [Adding a new SSH key to your GitHub account](https://docs.github.com/en/github-ae@latest/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
+## Node
+
+Most of the services in Remote Lab are using Node. Download [Node.js v14](https://nodejs.org/en/) (v16 not supported) and install. After installation verify that it was installed successfully
+```
+node --version
+```
+Also verify that NPM (Node Package Manager) was also installed with Node. NPM is used to download external dependencies.
+```
+npm --version
+```
+
 ## MySQL database
 
 Remote Lab holds data in MySQL database. To connect, it is necessary to install and configure MySQL port, username and password.
