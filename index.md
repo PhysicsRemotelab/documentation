@@ -9,7 +9,7 @@ Source code for all Remote Lab projects can be found on [https://github.com/Phys
 List of necessary software to be installed locally, tutorials can be found on software homepages.
 - [Git](https://git-scm.com/)
 - [Node.js v14](https://nodejs.org/en/) (v16 not supported)
-- [Python](https://www.python.org/)
+- [Python 3](https://www.python.org/)
 - [MySQL](https://dev.mysql.com/downloads/installer/)
 - [Docker](https://www.docker.com/) (optional)
 - [MySQL Workbench](https://www.mysql.com/products/workbench/) (optional)
