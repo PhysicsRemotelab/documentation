@@ -56,6 +56,17 @@ Also verify that NPM (Node Package Manager) was also installed with Node. NPM is
 npm --version
 ```
 
+## Python
+
+Python is used in web camera streaming service. Download and install [Python](https://www.python.org/). Verify that Python v3 is installed
+```
+python --version
+```
+PIP is Package Installed for Python and it is used to install dependencies. Verify that PIP was installed with Python.
+```
+pip --version
+``
+
 ## MySQL database
 
 Remote Lab holds data in MySQL database. To connect, it is necessary to install and configure MySQL port, username and password.
