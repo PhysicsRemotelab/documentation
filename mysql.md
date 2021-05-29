@@ -6,6 +6,6 @@ Following links can be used as a guide to configure MySQL database
 
 MySQL Workbench user interface tool can be optionally downloaded for easier access and configuration for database.
 
-Database holds following table for Remote Lab
+Database holds following tables for Remote Lab
 
 ![image](https://raw.githubusercontent.com/PhysicsRemotelab/documentation/gh-pages/img/tables.png)
