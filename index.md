@@ -140,7 +140,7 @@ Run application
 python app.py
 ```
 
-Verify that application is successfully runing.
+Verify that application is successfully running.
 ```
 http://localhost:3000/
 ```
