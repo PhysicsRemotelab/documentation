@@ -19,7 +19,8 @@ After software is installed, proceed to configure development environment.
 
 ## Git
 
-To clone code from private repositories, it is necessary to setup SSH keys. Verify that git is installed.
+To clone code from private repositories, it is necessary to setup SSH keys. 
+Verify that git is installed.
 ```
 git --version
 ```
