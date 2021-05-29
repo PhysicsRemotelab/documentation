@@ -97,3 +97,33 @@ Visit website locally at the address
 ```
 http://localhost:4200/
 ```
+
+## Remote Lab Camera
+
+Remote Lab Camera is used to stream camera feeds over the web.
+
+Clone code for camera
+```
+git clone git@github.com:PhysicsRemotelab/rlab-cam.git
+```
+
+Dependencies are in requirements.txt file (versions compatible with Windows). Install dependencies.
+```
+pip install -r requirements.txt
+```
+
+If you are using Linux or Mac, then it might be necessary to install different versions. There are two main dependencies in the camera service. OpenCV is used to read camera stream and Flask is used to share camera stream over web.
+ ```
+ pip install opencv-python
+ pip install flask
+ ```
+ 
+Run application
+```
+python app.py
+```
+
+Verify that application is successfully runing.
+```
+http://localhost:3000/
+```
