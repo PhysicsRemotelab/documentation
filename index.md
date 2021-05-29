@@ -112,7 +112,7 @@ Dependencies are in requirements.txt file (versions compatible with Windows). In
 pip install -r requirements.txt
 ```
 
-If you are using Linux or Mac, then it might be necessary to install different versions. There are two main dependencies in the camera service. OpenCV is used to read camera stream and Flask is used to share camera stream over web. Flask CORS is used to enable web site to read camera stream read pixel values.
+If you are using Linux or Mac, then it might be necessary to install different versions. There are two main dependencies in the camera service. OpenCV is used to read camera stream and Flask is used to share camera stream over web. Flask CORS is used to enable web site to read camera stream pixel values.
  ```
  pip install opencv-python
  pip install flask
