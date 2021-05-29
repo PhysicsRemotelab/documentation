@@ -9,6 +9,7 @@ Source code for all Remote Lab projects can be found on [https://github.com/Phys
 - [Git](https://physicsremotelab.github.io/documentation/git)
 - [Node](https://physicsremotelab.github.io/documentation/node)
 - [Python](https://physicsremotelab.github.io/documentation/python)
+- [MySQL](https://physicsremotelab.github.io/documentation/mysql)
 - [Remote Lab Site](https://physicsremotelab.github.io/documentation/rlab-site)
 - [Remote Lab API](https://physicsremotelab.github.io/documentation/rlab-api)
 - [Remote Lab Proxy](https://physicsremotelab.github.io/documentation/rlab-proxy)
