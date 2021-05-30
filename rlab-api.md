@@ -7,7 +7,7 @@ Clone code for API
 ```
 git clone git@github.com:PhysicsRemotelab/rlab-api.git
 ```
-After cloning, go to directory and install Node dependencies
+After cloning, go to directory and install Node dependencies. Dependencies to be installed are defined in package.json file.
 ```
 npm install
 ```
