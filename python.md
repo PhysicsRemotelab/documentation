@@ -8,3 +8,8 @@ PIP is Package Installer for Python and it is used to install dependencies. Veri
 ```
 pip --version
 ```
+
+Depending on installation, on some systems `python` will return version 2 of Python and Python 3 can be verified by writing
+```
+python3 --version
+```
