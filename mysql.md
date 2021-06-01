@@ -17,3 +17,5 @@ Meaning of tables
 - Roles - Contains roles of users: Administartor or Student.
 - User_role - Holds relationships between users and roles.
 - Measurements - Results are stored and later retrieved from this table. Field user_id helps to filter result by user to prevent access to measurements done by other users. 
+
+When setting up database locally, then there is no need to create all those tables manually, Remote Lab API generates them automatically when application starts.
