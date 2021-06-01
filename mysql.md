@@ -6,6 +6,14 @@ Following links can be used as a guide to configure MySQL database
 
 MySQL Workbench user interface tool can be optionally downloaded for easier access and configuration for database.
 
-Database holds following tables for Remote Lab
+Following image describes database tables and relationships that Remote lab supports.
 
 ![image](https://raw.githubusercontent.com/PhysicsRemotelab/documentation/gh-pages/img/tables.png)
+
+Meaning of tables
+- Labs - Contains title, description and image of lab that are visible in list view for registered and non-registered usrers.
+- Users - To use labs and save measurement results it is necessary to register account and user information is kept in Users table.
+- User_lab - When user starts using lab, then this table holds information between user and lab. It also has information when lab was taken and for how long by current user.
+- Roles - Contains roles of users: Administartor or Student
+- User_role - Binds role to a user
+- Measurement - Keeps records of stored measurement results, has information about result, user and lab.
