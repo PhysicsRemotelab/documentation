@@ -16,4 +16,4 @@ Meaning of tables
 - User_lab - When user starts using lab, then this table holds information between user and lab. It also has information when lab was taken and for how long. When time is exceeded, then other user can start using lab.
 - Roles - Contains roles of users: Administartor or Student.
 - User_role - Binds role to a user.
-- Measurements - Keeps records of stored measurement results, has information about result, user and lab.
+- Measurements - Keeps records of stored measurement results, has information about result, user and lab. When measurement results are downloaded from a Remote Lab website, then this is where results are retrieved from.
