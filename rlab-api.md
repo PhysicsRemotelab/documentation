@@ -21,7 +21,7 @@ By default, database will be empty. To seed database with default data run, foll
 ```
 npm run seed
 ```
-If API is running correctly, then it is possible to fetch data from database from following endpoint
+If API is running correctly, then it is possible to see documentation of all available API endpoints on following route
 ```
-http://localhost:4000/labs
+http://localhost:4000/api/
 ```
