@@ -1,6 +1,8 @@
 ## Remote Lab Proxy
 
-Remote Lab has a lot of services and to be able to serve all requests through one endpoint, there is Remote Lab Proxy. It is also used for logging requests.
+Remote Lab has a lot of services and to be able to serve all requests through one endpoint, there is Remote Lab Proxy. 
+
+It is also used for logging requests.
 
 Clone code for Proxy
 ```
@@ -14,4 +16,4 @@ After dependencies are installed, run application
 ```
 npm start
 ```
-There is no particular service to visit to test application, it just runs in background and listens for other application requests.
+There is no particular service to visit to test application, it runs in background, listens and delegates requests for other applications.
