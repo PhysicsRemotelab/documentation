@@ -16,4 +16,4 @@ After dependencies are installed, run application
 ```
 npm start
 ```
-There is no particular service to visit to test application, it runs in background, listens and delegates requests for other applications.
+There is no particular way to test application, it runs in background, listens and delegates requests for other applications.
