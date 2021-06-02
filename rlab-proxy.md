@@ -1,6 +1,6 @@
 ## Remote Lab Proxy
 
-Remote Lab has a lot of services and to be able to serve all requests through one port, there is Remote Lab Proxy. It is also used for logging requests.
+Remote Lab has a lot of services and to be able to serve all requests through one endpoint, there is Remote Lab Proxy. It is also used for logging requests.
 
 Clone code for Proxy
 ```
