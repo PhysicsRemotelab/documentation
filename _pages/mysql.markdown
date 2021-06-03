@@ -1,4 +1,8 @@
-## MySQL database
+---
+layout: page
+title: MySQL database
+permalink: /mysql/
+---
 
 Remote Lab holds data in MySQL database. It is necessary to install MySQL database, configure correct database name, hostname, port, username and password, so API can connect to database and retrieve or store data.
 

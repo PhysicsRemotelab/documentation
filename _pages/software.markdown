@@ -1,4 +1,8 @@
-## Software to download
+---
+layout: page
+title: Software
+permalink: /software/
+---
 
 List of recommended software to be installed locally, tutorials can be found on software homepages.
 - [Git](https://git-scm.com/)

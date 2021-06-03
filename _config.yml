@@ -1,2 +1,22 @@
-theme: jekyll-theme-cayman
-title: Remote Lab documentation
+title: "Remote Lab"
+description: ""
+url: "" 
+github_username: PhysicsRemotelab
+
+# Build settings
+theme: minima
+
+include:
+  - _pages
+
+header_pages:
+  - _pages/rlab-site.markdown
+  - _pages/rlab-api.markdown
+  - _pages/rlab-proxy.markdown
+  - _pages/rlab-cam.markdown
+
+exclude: 
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - README.md

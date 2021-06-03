@@ -1,4 +1,8 @@
-## Git
+---
+layout: page
+title: Git
+permalink: /git/
+---
 
 Git is used for source code management. Download and install [Git](https://git-scm.com/). Verify that install was successful.
 ```

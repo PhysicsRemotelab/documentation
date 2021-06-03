@@ -1,4 +1,8 @@
-## Remote Lab Proxy
+---
+layout: page
+title: Proxy
+permalink: /rlab-proxy/
+---
 
 Remote Lab has a lot of services and to be able to serve all requests through one endpoint, there is Remote Lab Proxy. 
 
