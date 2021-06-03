@@ -18,12 +18,12 @@ clip < ~/.ssh/id_ed25519.pub
 ```
 Go to Github Account -> Settings -> SSH and GPG keys -> New SSH key.
 
-![image](https://raw.githubusercontent.com/PhysicsRemotelab/documentation/gh-pages/img/accountsettings.png)
+![image](/assets/img/accountsettings.png)
 
 
 Copy key there and save. Now you should be able to clone from Remote Lab private repositories.
 
-![image](https://raw.githubusercontent.com/PhysicsRemotelab/documentation/gh-pages/img/addsshkey.png)
+![image](/assets/img/addsshkey.png)
 
 
 Additional tutorials

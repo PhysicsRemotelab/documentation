@@ -13,7 +13,7 @@ MySQL Workbench user interface tool can be optionally downloaded for easier acce
 
 Following image describes database tables and relationships that Remote lab supports.
 
-![image](https://raw.githubusercontent.com/PhysicsRemotelab/documentation/gh-pages/img/tables.png)
+![image](/assets/img/tables.png)
 
 Meaning of tables
 - Labs - Contains title, description and image of labs that are visible in list view for registered and non-registered usrers.
