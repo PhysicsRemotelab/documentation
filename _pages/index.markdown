@@ -9,12 +9,12 @@ This technical documentation is meant to guide how to setup Remote Lab software 
 Source code for all Remote Lab projects can be found on [https://github.com/PhysicsRemotelab](https://github.com/PhysicsRemotelab) (requires access to see private repositories).
 
 ## Menu
-- [Software to download](/software)
-- [Git](/git)
-- [Node](/node)
-- [Python](/python)
-- [MySQL](/mysql)
-- [Remote Lab Site](/rlab-site)
-- [Remote Lab API](/rlab-api)
-- [Remote Lab Proxy](/rlab-proxy)
-- [Remote Lab Camera](/rlab-cam)
+- [Software to download](/documentation/software)
+- [Git](/documentation/git)
+- [Node](/documentation/node)
+- [Python](/documentation/python)
+- [MySQL](/documentation/mysql)
+- [Remote Lab Site](/documentation/rlab-site)
+- [Remote Lab API](/documentation/rlab-api)
+- [Remote Lab Proxy](/documentation/rlab-proxy)
+- [Remote Lab Camera](/documentation/rlab-cam)
