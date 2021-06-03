@@ -1,4 +1,8 @@
-## Python
+---
+layout: page
+title: Python
+permalink: /python/
+---
 
 Python is used in web camera streaming service. Download and install [Python](https://www.python.org/). Verify that Python v3 is installed
 ```

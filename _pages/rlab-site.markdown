@@ -1,4 +1,8 @@
-## Remote Lab Site
+---
+layout: page
+title: Site
+permalink: /rlab-site/
+---
 
 Remote Lab Site contains web interface for application. It can be started independently, but it will contain no back-end services or data if API is not running or database is empty.
 

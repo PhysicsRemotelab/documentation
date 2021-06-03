@@ -1,4 +1,8 @@
-## Remote Lab API
+---
+layout: page
+title: API
+permalink: /rlab-api/
+---
 
 Remote Lab API is used to connect to database, send and receive data between database and website.
 It is necessary to configure database correctly for API to run successfully. Database default configuration (DB_PORT, DB_USERNAME, DB_PASSWORD, DB_NAME) can be found in .env file and variable values can be changed.
