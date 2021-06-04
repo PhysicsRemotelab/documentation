@@ -1,6 +1,7 @@
 title: "Remote Lab"
 description: ""
 url: ""
+baseurl: "/documentation"
 github_username: PhysicsRemotelab
 
 # Build settings
