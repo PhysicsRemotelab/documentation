@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Node
-permalink: /node/
+permalink: /dependencies-node/
 ---
 
 Most of the services in Remote Lab are using Node. Download [Node.js v14](https://nodejs.org/en/) (v16 not supported yet) and install. After installation verify that it was installed successfully

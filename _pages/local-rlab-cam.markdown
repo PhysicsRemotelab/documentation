@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Camera
-permalink: /rlab-cam/
+permalink: /local-rlab-cam/
 ---
 
 Remote Lab Camera is used to stream camera feeds over the web.

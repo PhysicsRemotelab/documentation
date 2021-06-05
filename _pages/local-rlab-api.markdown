@@ -1,7 +1,7 @@
 ---
 layout: page
 title: API
-permalink: /rlab-api/
+permalink: /local-rlab-api/
 ---
 
 Remote Lab API is used to connect to database, send and receive data between database and website.

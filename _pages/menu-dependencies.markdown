@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Software
-permalink: /software/
+title: Dependencies
+permalink: /dependencies/
 ---
 
 List of recommended software to be installed locally, tutorials can be found on software homepages.
@@ -11,3 +11,11 @@ List of recommended software to be installed locally, tutorials can be found on 
 - [MySQL](https://dev.mysql.com/downloads/installer/)
 - [MySQL Workbench](https://www.mysql.com/products/workbench/) (optional)
 - [Visual Studio Code](https://code.visualstudio.com/) (optional)
+
+## Configuration
+
+Short suggestions what to check after software is downloaded and installed
+- [Git](/documentation/dependencies-git)
+- [Node](/documentation/dependencies-node)
+- [Python](/documentation/dependencies-python)
+- [MySQL](/documentation/dependencies-mysql)
