@@ -32,8 +32,11 @@ Verify that application is successfully running.
 ```
 http://localhost:3000/
 ```
-If you have camera connected to computer, then first camera stream can be viewed on this route
+
+If there is one camera connected to computer, then camera stream can be viewed on this route
 
 ```
 http://localhost:3000/cam/0
 ```
+
+Second camera stream would be on `/cam/1` route, third on `/cam/2` route and so on. When using multiple cameras, then they should be connected to different USB hubs to avoid stream collisions (for example, first camera connected to motherboard USB on back of PC, second camera connected to case USB on front and third cam can be connected to external USB hub).
