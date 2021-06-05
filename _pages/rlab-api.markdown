@@ -25,7 +25,7 @@ By default, database will be empty. To seed database with default data run, foll
 ```
 npm run seed
 ```
-If API is running correctly, then it is possible to see documentation of all available API endpoints on following route
+If API is running correctly, then it is possible to see Swagger documentation of all available API endpoints on following route
 ```
 http://localhost:4000/api/
 ```
