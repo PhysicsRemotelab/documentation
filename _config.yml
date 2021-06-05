@@ -7,6 +7,8 @@ github_username: PhysicsRemotelab
 # Build settings
 theme: minima
 
+port: 8080
+
 include:
   - _pages
 
