@@ -6,9 +6,9 @@ permalink: /local-serialport/
 
 Most labs require communication with Serial port and stream data over network. This general tutorial can be used to prepare setting up labs.
 
-Project uses [Node SerialPort](https://serialport.io/docs/guide-installation/) library to communicate with USB devices. It dependends on `node-gyp` library, which requires Python 2. Download and install [Python 2](https://www.python.org/downloads/release/python-2718/).
+Project uses [Node SerialPort](https://serialport.io/docs/guide-installation/) library to communicate with USB devices. It dependends on `node-gyp` library, which requires [Python 3](https://www.python.org/downloads/) and [C/C++ compiler](https://gcc.gnu.org/). More detailed list of dependencies depending on operating system can be found on [https://github.com/nodejs/node-gyp](https://github.com/nodejs/node-gyp)
 
-After Python 2 installed, then `node-gyp` can be installed. Install `node-gyp` globally.
+After dependencies are installed, then `node-gyp` can be installed. Install `node-gyp` globally.
 ```
 npm install -g node-gyp
 ```
