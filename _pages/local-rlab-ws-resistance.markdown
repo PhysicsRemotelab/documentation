@@ -10,7 +10,7 @@ Lab requires resistance electronics board to be connected to USB port.
 
 Clone code for lab.
 ```
-git@github.com:PhysicsRemotelab/rlab-ws-gamma.git
+git@github.com:PhysicsRemotelab/rlab-ws-resistance.git
 ```
 
 After cloning, go to directory and install Node dependencies. Dependencies to be installed are defined in package.json file.
