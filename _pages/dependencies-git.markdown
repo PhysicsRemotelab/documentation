@@ -16,7 +16,7 @@ Copy SSH key contents
 ```
 clip < ~/.ssh/id_ed25519.pub
 ```
-Go to Github Account -> Settings -> SSH and GPG keys -> New SSH key.
+Go to Github Account -> Settings -> [SSH and GPG keys](https://github.com/settings/keys) -> New SSH key.
 
 ![image](/documentation/assets/img/accountsettings.png)
 
