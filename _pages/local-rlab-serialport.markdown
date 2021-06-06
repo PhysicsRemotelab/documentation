@@ -18,7 +18,7 @@ Check `node-gyp` is installed.
 node-gyp --version
 ```
 
-Optionally, can install Serial Port list library to list all available serial ports. It is helpful to find correct USB port where device is connected to. Install SeriPort List globally.
+Optionally, can install Serial Port list library to list all available serial ports. It is helpful to find correct USB port where device is connected to. Install SerialPort List globally.
 ```
 npm install -g @serialport/list
 ```
