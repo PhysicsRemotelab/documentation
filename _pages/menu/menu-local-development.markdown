@@ -13,6 +13,7 @@ Technical description for general Remote Lab software and local setup.
 
 Setting up labs locally (requires electronic components and hardware to work properly).
 - [SerialPort setup](/documentation/local-serialport)
+- [Arduino spectrometer setup](/documentation/local-arduino)
 - [Remote Lab Gamma](/documentation/local-gamma)
 - [Remote Lab Spectrometer](/documentation/local-spectrometer)
 - [Remote Lab Resistance](/documentation/local-resistance)

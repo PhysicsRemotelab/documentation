@@ -13,9 +13,9 @@ include:
   - _pages
 
 header_pages:
-  - _pages/menu-dependencies.markdown
-  - _pages/menu-local-development.markdown
-  - _pages/menu-labs.markdown
+  - _pages/menu/menu-dependencies.markdown
+  - _pages/menu/menu-local-development.markdown
+  - _pages/menu/menu-labs.markdown
 
 exclude: 
   - .gitignore
