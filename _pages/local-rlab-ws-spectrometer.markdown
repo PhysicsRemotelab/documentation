@@ -20,7 +20,7 @@ npm install
 
 After dependencies are installed, run application by specifying serial port where spectrometer is connected to and HTTP port where server will be running.
 ```
-npm start --serialport=COM3 --httpport=5001
+npm start --serial-port=COM3 --http-port=5001
 ```
 
 # Arduino spectrometer driver
