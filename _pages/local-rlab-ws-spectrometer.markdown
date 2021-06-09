@@ -18,7 +18,7 @@ After cloning, go to directory and install Node dependencies. Dependencies to be
 npm install
 ```
 
-After dependencies are installed, run application by specifying serial port where spectrometer is connected to and HTTP port where server will be running.
+Start application by specifying correct serial port, for example serial-port=COM3 and HTTP port, for example http-port=5001
 ```
 npm start --serial-port=COM3 --http-port=5001
 ```
