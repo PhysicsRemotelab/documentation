@@ -18,9 +18,9 @@ After cloning, go to directory and install Node dependencies. Dependencies to be
 npm install
 ```
 
-After dependencies are installed, run application
+After dependencies are installed, run application by specifying serial port where spectrometer is connected to and HTTP port where server will be running.
 ```
-npm start
+npm start --serialport=COM3 --httpport=5001
 ```
 
 # Arduino spectrometer driver
