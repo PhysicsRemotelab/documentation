@@ -4,7 +4,7 @@ title: Python
 permalink: /dependencies-python/
 ---
 
-Python is used in web camera streaming service. Download and install [Python](https://www.python.org/). Verify that Python v3 is installed
+Python is used in web camera streaming service. Download and install [Python 3](https://www.python.org/). Verify that Python v3 is installed
 ```
 python --version
 ```
