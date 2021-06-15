@@ -18,7 +18,7 @@ Image below shows how to change nameservers in zone.ee. It can take up to 24 hou
 
 ![image](/documentation/assets/img/zone-nameservers.png)
 
-Now need to point domain name to correct IP address, where server is located. Use static IP address to avoid hassle with always changing dynamic IP.
+After nameservers are updated, go to Cloudflare DNS management. Now need to point domain name to correct IP address, where server is located. Use static IP address to avoid hassle with dynamic IP. Some description of records:
 
 A - record that is used to point remotelab.ee to server IP of live server.
 
@@ -32,7 +32,7 @@ A - record to point test.remotelab.ee to IP of test server.
 
 After Cloudflare configuration is completed, then all traffic will be routed to server where application is running. Application that runs on server should be started on port 80 and run on HTTP (without SSL certificates).
 
-When visiting website in browser, then HTTP sites will got to port 80 and HTTPS go to port 443. Cloudflare will reroute all HTTP calls to HTTPS site and offer valid SSL certificate.
+When visiting website in browser, then HTTP sites will go to port 80 and HTTPS go to port 443. Cloudflare will reroute all HTTP calls to HTTPS site and offer valid SSL certificate.
 
 ![image](/documentation/assets/img/cloudflare-ssl.png)
 
