@@ -7,13 +7,6 @@ github_username: PhysicsRemotelab
 # Build settings
 theme: minima
 
-plugins:
-  - jekyll-rushed-analytics
-
-jekyll_analytics:
-  GoogleAnalytics:
-    id: G-JFQMJ0NMX2
-
 port: 8080
 
 include:

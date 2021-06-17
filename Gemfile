@@ -5,7 +5,6 @@ gem "minima", "~> 2.5"
 
 # For using with Github pages, includes Jekyll and Bundler
 gem "github-pages"
-gem 'jekyll-rushed-analytics'
 
 # Missing dependency on Windows, need to specify separately
 gem "webrick", "~> 1.7"
