@@ -8,7 +8,7 @@ github_username: PhysicsRemotelab
 theme: minima
 
 plugins:
-  - jekyll-analytics
+  - jekyll-rushed-analytics
 
 jekyll_analytics:
   GoogleAnalytics:
