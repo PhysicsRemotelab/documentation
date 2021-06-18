@@ -7,6 +7,8 @@ permalink: /local-rlab-api/
 Remote Lab API is used to connect to database, send and receive data between database and website.
 It is necessary to configure database correctly for API to run successfully. Database default configuration (DB_PORT, DB_USERNAME, DB_PASSWORD, DB_NAME) can be found in .env file and variable values can be changed.
 
+API is written in [Node.js](https://nodejs.org/en/), which is one of the most populat modern tools to build back-end services. If you are not familiar with it, then one of the best courses can be taken on Udemy: [NodeJS - The Complete Guide](https://www.udemy.com/course/nodejs-the-complete-guide/). Node.js application is using [Nest.js](https://nextjs.org/) framework to build API and connect to database.
+
 Clone code for API
 ```
 git clone git@github.com:PhysicsRemotelab/rlab-api.git
