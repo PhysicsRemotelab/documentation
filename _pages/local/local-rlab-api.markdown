@@ -7,7 +7,7 @@ permalink: /local-rlab-api/
 Remote Lab API is used to connect to database, send and receive data between database and website.
 It is necessary to configure database correctly for API to run successfully. Database default configuration (DB_PORT, DB_USERNAME, DB_PASSWORD, DB_NAME) can be found in .env file and variable values can be changed.
 
-API is written in [Node.js](https://nodejs.org/en/), which is one of the most popular modern tools to build back-end services. If you are not familiar with it, then you can read  [Node.js dodumentation](https://nodejs.org/dist/latest-v14.x/docs/api/) or read take of the best courses on Udemy: [NodeJS - The Complete Guide](https://www.udemy.com/course/nodejs-the-complete-guide/). Node.js application is using [Nest.js](https://nextjs.org/) framework to build API, connect to database and handle HTTP requests.
+API is written in [Node.js](https://nodejs.org/en/), which is one of the most popular modern tools to build back-end services. If you are not familiar with it, then you can read  [Node.js dodumentation](https://nodejs.org/dist/latest-v14.x/docs/api/) or read take one of the best courses on Udemy: [NodeJS - The Complete Guide](https://www.udemy.com/course/nodejs-the-complete-guide/). Node.js application is using [Nest.js](https://nextjs.org/) framework to build API, connect to database and handle HTTP requests.
 
 Clone code for API
 ```
