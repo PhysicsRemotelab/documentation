@@ -4,7 +4,7 @@ Documentation is located at [https://physicsremotelab.github.io/documentation/](
 
 # Local development setup for documentation site
 
-Download and install [Ruby](https://www.ruby-lang.org/en/downloads/). Check if Ruby is installed.
+Download and install [Ruby 3](https://www.ruby-lang.org/en/downloads/). Check if Ruby is installed.
 ```
 ruby --version
 ```
