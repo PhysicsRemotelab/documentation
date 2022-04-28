@@ -2,7 +2,19 @@
 
 Documentation is located at [https://physicsremotelab.github.io/documentation/](https://physicsremotelab.github.io/documentation/)
 
-# Local development setup for documentation site
+# Local development setup using Docker
+
+Build and run Docker container
+```
+docker compose up
+```
+
+Visit site on:
+```
+http://localhost:8080/documentation/
+```
+
+# Local development setup without Docker
 
 Download and install [Ruby 3](https://www.ruby-lang.org/en/downloads/). Check if Ruby is installed.
 ```

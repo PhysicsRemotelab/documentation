@@ -1,0 +1,17 @@
+# docker-compose.yml
+version: '3'
+services:
+  documentation-site:
+    container_name: documentation-site
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: bundle exec jekyll serve --host 0.0.0.0
+    volumes:
+      - .:/app
+      - bundler_gems:/usr/local/bundle/
+    ports:
+      - "8080:8080"
+
+volumes:
+  bundler_gems:
