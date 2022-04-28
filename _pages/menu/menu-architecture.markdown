@@ -5,3 +5,5 @@ permalink: /architecture/
 ---
 
 Overview of architecture
+
+![image](/documentation/assets/img/architecture.png)
