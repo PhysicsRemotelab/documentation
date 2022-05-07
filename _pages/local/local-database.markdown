@@ -8,12 +8,10 @@ Following image describes database tables and relationships that Remote lab supp
 
 ![image](/documentation/assets/img/tables.png)
 
-Meaning of tables
-- Labs - Contains title, description and image of labs that are visible in list view for registered and non-registered usrers.
-- Users - To use labs and save measurement results it is necessary to register account and user information is kept in Users table.
-- User_lab - Holds relationships between user and lab, when user starts using lab. It also has information when lab was taken and for how long. When time is exceeded, then other user can start using lab.
-- Roles - Contains roles of users: Administartor or Student.
-- User_role - Holds relationships between users and roles.
-- Measurements - Results are stored and later retrieved from this table. Field user_id helps to filter result by user to prevent access to measurements done by other users. 
+Database contains 4 relevant tables where application stores, modifies and reads data.
+- Labs table - holds information related to lab, for example name, description, and image location.
+- Users table - to keep track of users that have signed up and used application.
+- Measurements table - holds measurement details like datetime when it was measured, which lab and user did it and location to data file for download
+- Bookings table - keeps track of labs, users, start time and end time to prevent multiple users using lab at the same time.
 
 When setting up database locally, then there is no need to create all those tables manually, Remote Lab API generates them automatically when application starts.
